@@ -113,7 +113,7 @@ install_opencv () {
   -D OPENCV_ENABLE_NONFREE=ON \
   -D INSTALL_C_EXAMPLES=OFF \
   -D INSTALL_PYTHON_EXAMPLES=OFF \
-  -D PYTHON3_PACKAGES_PATH=/usr/lib/python3.6/dist-packages \
+  -D PYTHON3_PACKAGES_PATH=/usr/lib/python3/dist-packages \
   -D OPENCV_GENERATE_PKGCONFIG=ON \
   -D BUILD_EXAMPLES=OFF \
   -D CMAKE_CXX_FLAGS="-march=native -mtune=native" \
